@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Semantic Elements</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer, nav, section, aside {
+      padding: 20px;
+      border: 1px solid #ccc;
+      margin: 10px;
+    }
+    header, footer {
+      background-color: #f4f4f4;
+    }
+    nav {
+      background-color: #e2e2e2;
+    }
+    main {
+      display: flex;
+    }
+    section {
+      flex: 3;
+    }
+    aside {
+      flex: 1;
+      background-color: #f9f9f9;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Website</h1>
+    <p>Welcome to my HTML5 semantic layout example.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Main Content</h2>
+      <p>This is the main section of the page. It contains the core content users are here to read.</p>
+    </section>
+
+    <aside>
+      <h3>Related Info</h3>
+      <p>This is an aside element. It contains related links or side information.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
